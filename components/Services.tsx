@@ -1,6 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
-import data from '../../config/data.json';
+import data from '@/config/data.json';
 
 const Services = () => {
   const { servicesSection } = data;
