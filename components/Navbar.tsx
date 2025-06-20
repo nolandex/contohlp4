@@ -6,7 +6,8 @@ import { Button } from "@/components/ui/button";
 import { Popover } from "@headlessui/react";
 import { Menu, X } from "lucide-react";
 import { motion } from "framer-motion";
-import data from "../../config/data.json";
+import data from '@/config/data.json';
+
 
 const Header = () => {
   const [menuOpen, setMenuOpen] = useState(false);
