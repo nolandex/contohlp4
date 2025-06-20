@@ -1,223 +1,223 @@
 {
-  "whatsappLink": "https://wa.me/6285156779923",
-  "header": {
-    "logo": "/logo.png",
-    "navLinks": [
-      { "label": "About us", "href": "#about" },
-      { "label": "Our Service", "href": "#services" },
-      { "label": "Find a Doctor ", "href": "#doctors" }
-    ],
-    "button": {
-      "text": "Book now",
-      "href": "#contact-section"
-    }
-  },
-  "homeSection": {
-    "title": "Transforming Your Smile into a Timeless <span class='text-[#FF6947]'>Masterpiece</span> of Joy",
-    "subtitle": "Discover the joy of a perfect smile at SmileJoy! Expert care meets artistic flair to create a smile that's uniquely you. Brighten your world with a SmileJoy smile",
-    "appointmentButton": {
-      "text": "Book An Appointment",
-      "href": "#contact-section"
-    },
-    "contactButton": {
-      "text": "940-394-3344",
-      "icon": "/callmehunter.png"
-    },
-    "address": {
-      "icon": "/location.png",
-      "title": "Address",
-      "text": "Brandenburgische Str. 87"
-    },
-    "openingHours": {
-      "icon": "/adress.png",
-      "title": "Opening Hours",
-      "text": "Mon-Fri 8:00 - 16:00"
-    },
-    "heroImage": "/hero.png"
-  },
-  "optionsBar": [
-    {
-      "title": "Working Hours",
-      "icon": "/timer.png",
-      "details": [
-        { "label": "MON - SAT", "value": "9am - 8pm" }
-      ]
-    },
-    {
-      "title": "Book an Appointment",
-      "icon": "/boking.png",
-      "details": [
-        { "label": "Calender", "value": "14-12-2023" }
-      ]
-    },
-    {
-      "title": "Emergency Service",
-      "icon": "/call.png",
-      "details": [
-        { "label": "EMERGENCY LINE 24/7", "value": "1-234-567-891" }
-      ]
-    }
-  ],
-  "aboutSection": {
-    "id": "about",
-    "image": "/about.png",
-    "tagline": "The power of a smile",
-    "title": "Unlock the Magic of Your Smile",
-    "description": "A radiant smile is more than just aesthetics; it's a key to confidence, health, and happiness. At SmileJoy, we understand the transformative power of a smile. It's not just about looking good—it's about feeling great. Let us help you unlock the full potential of your smile, enhancing both your appearance and your wellbeing",
-    "button": {
-      "text": "Book An Appointment",
-      "href": "#contact-section"
-    }
-  },
-  "doctorSlider": {
-    "id": "doctors",
-    "tagline": "Meet our Doctors",
-    "title": "Meet Our Team. Your Health Matters.",
-    "controls": {
-      "prev": "/left.png",
-      "next": "/right.png"
-    },
-    "doctors": [
-      {
-        "image": "/team.png",
-        "specialty": "Medical Specialist",
-        "name": "Dr. Sarah Davis",
-        "description": "Experience excellence with one of the best medical specialists in the field. Trust our seasoned professional for exceptional care and results.",
-        "button": {
-          "text": "Book An Appointment",
-          "href": "#contact-section"
-        }
-      },
-      {
-        "image": "/team.png",
-        "specialty": "Medical Specialist",
-        "name": "Dr. Sarah Davis",
-        "description": "Experience excellence with one of the best medical specialists in the field. Trust our seasoned professional for exceptional care and results.",
-        "button": {
-          "text": "Book An Appointment",
-          "href": "#contact-section"
-        }
-      }
-    ]
-  },
-  "servicesSection": {
-    "id": "services",
-    "tagline": "Services",
-    "title": "Your Doctor Services for Health and Wellness",
-    "services": [
-      {
-        "icon": "/general.png",
-        "title": "General",
-        "description": "Compassionate Care, Expertise, and Your Well-being - Your Trusted General Doctor."
-      },
-      {
-        "icon": "/Nutition.png",
-        "title": "Nutrition",
-        "description": "Discover the Power of Nourishing Your Body and Mind for Lasting Joy and Vitality."
-      },
-      {
-        "icon": "/Pediatrics.png",
-        "title": "Pediatrics",
-        "description": "Empowering Young Lives: Nurturing Wellness Through Progressive Pediatric Care"
-      },
-      {
-        "icon": "/Cardiology.png",
-        "title": "Cardiology",
-        "description": "Revolutionizing Cardiology Through Innovative Ultricies Solutions"
-      },
-      {
-        "icon": "/Orthopedics.png",
-        "title": "Orthopedics",
-        "description": "Precision Orthopedic Mastery: Elevating Mobility for an Active and Pain-Free Life in Motion."
-      },
-      {
-        "icon": "/opthlmology.png",
-        "title": "Ophthalmology",
-        "description": "Ophthalmology's Commitment to Vision Precision and Eye Wellness"
-      }
-    ]
-  },
-  "contactSection": {
-    "id": "contact-section",
-    "title": "Your SmileJoy Journey Begins Here",
-    "description": "Ready for a brighter, healthier smile? Booking your appointment with SmileJoy is easy and convenient. Click, call, or visit us to schedule your visit. Our friendly team is excited to welcome you and start your transformation journey.",
-    "buttonText": "Book now",
-    "specialistInfo": {
-      "image": "/contactmaam.png",
-      "line1": "Schedule appointment to discuss with",
-      "line2": "Medical Specialist"
-    },
-    "form": {
-      "title": "Schedule an appointment",
-      "fields": [
-        { "label": "FullName", "type": "text", "name": "fullname", "placeholder": "fullname" },
-        { "label": "Email", "type": "email", "name": "Email", "placeholder": "email" },
-        { "label": "Contact", "type": "tel", "name": "contact", "placeholder": "1-234-567-891" }
-      ],
-      "submitButtonText": "Schedule now"
-    }
-  },
-  "smileSection": {
-    "image": "/personalized.png",
-    "tagline": "The SmileJoy Approach",
-    "title": "Personalized Care for Your Unique Smile",
-    "description": "At SmileJoy, every smile is a masterpiece. Our approach is tailored to your individual needs, ensuring you get the most effective and comfortable treatment. We combine state-of-the-art technology with a warm, personal touch, making your journey to a perfect smile as enjoyable as the results.",
-    "button": {
-      "text": "Book An Appointment",
-      "href": "#contact-section"
-    }
-  },
-  "testimonialSection": {
-    "tagline": "The SmileJoy Approach",
-    "title": "Hear from Our Happy Smilers",
-    "testimonials": [
-      {
-        "quote": "“ SmileJoy's team of doctors are incredible! Their expertise and genuine concern for their patients make every visit a positive experience. I'm thankful for the personalized care that has significantly improved my eye health.”",
-        "image": "/test1.png",
-        "name": "Kevin Martin"
-      },
-      {
-        "quote": "I've trusted SmileJoy with my vision for years, and they never disappoint. The doctors' attention to detail and commitment to excellence are evident in every interaction. They've become more than just my eye care providers; Read more ",
-        "image": "/test2.png",
-        "name": "Bella Davis"
-      },
-      {
-        "quote": "SmileJoy's team of doctors are incredible! Their expertise and genuine concern for their patients make every visit a positive experience. I'm thankful for the personalized care that has significantly improved my eye health",
-        "image": "/test3.png",
-        "name": "Wonghen"
-      },
-      {
-        "quote": "“ SmileJoy's team of doctors are incredible! Their expertise and genuine concern for their patients make every visit a positive experience. I'm thankful for the personalized care that has significantly improved my eye health.” ",
-        "image": "/test4.png",
-        "name": "Sarah"
-      }
-    ]
-  },
-  "faqSection": {
-    "title": "Everything you need to know",
-    "faqs": [
-      {
-        "question": "How can I schedule an appointment with my doctor?",
-        "answer": "You can schedule an appointment with your doctor by calling the clinic directly or using the online appointment booking system available on our website. Additionally, you may inquire about appointment availability through our reception desk during regular office hours."
-      },
-      {
-        "question": "Can I reschedule or cancel my appointment?",
-        "answer": "To reschedule or cancel your appointment, please contact the relevant service provider or organization as soon as possible. Be sure to check their cancellation policy and provide ample notice to avoid any potential fees or inconveniences."
-      },
-      { "question": "Is it possible to schedule virtual or telemedicine appointments?", "answer": "Yes, many healthcare providers offer virtual or telemedicine appointments. You can schedule these appointments by contacting your healthcare provider's office and discussing the option of a remote consultation. Ensure you have the necessary technology and instructions for the virtual visit." },
-      { "question": "How can I contact the clinic for further assistance or questions about my appointment?", "answer": "To seek further assistance or inquire about your appointment, contact the clinic directly by calling their main phone number. You can find this information on their website or any appointment-related documentation. Alternatively, check for email contacts or patient portals if provided." }
-    ]
-  },
-  "footer": {
-    "logo": "/footer.png",
-    "tagline": "We bring smile on your face",
-    "links": [
-      { "label": "About", "href": "#about" },
-      { "label": "Contact", "href": "#contact-section" },
-      { "label": "Services", "href": "#services" },
-      { "label": "Appointment", "href": "#contact-section" }
-    ],
-    "copyright": "Copyright © 2023 FramerBite. All Rights Reserved",
-    "reserved": "All Right Reserve"
-  }
+"whatsappLink": "https://wa.me/6285156779923",
+"header": {
+"logo": "/logo-bisnovo.png",
+"navLinks": [
+{ "label": "Tentang Kami", "href": "#about" },
+{ "label": "Layanan Kami", "href": "#services" },
+{ "label": "Tim Kami", "href": "#team" }
+],
+"button": {
+"text": "Hubungi Kami",
+"href": "https://wa.me/6285156779923"
+}
+},
+"homeSection": {
+"title": "Mengubah Bisnis Anda menjadi Mahakarya Kesuksesan",
+"subtitle": "Temukan potensi penuh bisnis Anda bersama Bisnovo! Keahlian kami bertemu dengan wawasan strategis untuk menciptakan kesuksesan yang unik bagi Anda. Cerahkan masa depan bisnis Anda bersama Bisnovo.",
+"appointmentButton": {
+"text": "Buat Jadwal Konsultasi",
+"href": "https://wa.me/6285156779923"
+},
+"contactButton": {
+"text": "+62 851-5677-9923",
+"icon": "/callmehunter.png"
+},
+"address": {
+"icon": "/location.png",
+"title": "Alamat",
+"text": "Brandenburgische Str. 87"
+},
+"openingHours": {
+"icon": "/adress.png",
+"title": "Jam Buka",
+"text": "Senin-Jumat 8:00 - 16:00"
+},
+"heroImage": "/hero-bisnovo.png"
+},
+"optionsBar": [
+{
+"title": "Jam Kerja",
+"icon": "/timer.png",
+"details": [
+{ "label": "SENIN - SABTU", "value": "9pagi - 8malam" }
+]
+},
+{
+"title": "Buat Jadwal Konsultasi",
+"icon": "/boking.png",
+"details": [
+{ "label": "Hubungi Via WhatsApp", "value": "Klik di sini" }
+]
+},
+{
+"title": "Layanan Darurat",
+"icon": "/call.png",
+"details": [
+{ "label": "LAYANAN DARURAT 24/7", "value": "+6285156779923" }
+]
+}
+],
+"aboutSection": {
+"id": "about",
+"image": "/about-bisnovo.png",
+"tagline": "Kekuatan Strategi",
+"title": "Buka Potensi Penuh Bisnis Anda",
+"description": "Strategi bisnis yang cerdas lebih dari sekadar estetika; itu adalah kunci kepercayaan diri, pertumbuhan, dan kesuksesan. Di Bisnovo, kami memahami kekuatan transformatif dari strategi yang tepat. Ini bukan hanya tentang citra—ini tentang hasil. Biarkan kami membantu Anda membuka potensi penuh bisnis Anda, meningkatkan kinerja dan kesejahteraan perusahaan Anda.",
+"button": {
+"text": "Buat Jadwal Konsultasi",
+"href": "https://wa.me/6285156779923"
+}
+},
+"doctorSlider": {
+"id": "team",
+"tagline": "Temui Tim Kami",
+"title": "Temui Tim Kami. Kesuksesan Anda Adalah Prioritas.",
+"controls": {
+"prev": "/left.png",
+"next": "/right.png"
+},
+"doctors": [
+{
+"image": "/team-member-1.png",
+"specialty": "Konsultan Bisnis Utama",
+"name": "Bapak Budi Santoso",
+"description": "Rasakan keunggulan dengan salah satu konsultan bisnis terbaik di bidangnya. Percayakan pada profesional kami yang berpengalaman untuk perawatan dan hasil yang luar biasa.",
+"button": {
+"text": "Buat Jadwal Konsultasi",
+"href": "https://wa.me/6285156779923"
+}
+},
+{
+"image": "/team-member-2.png",
+"specialty": "Analis Strategi",
+"name": "Ibu Citra Lestari",
+"description": "Dapatkan wawasan mendalam dari analis strategi kami yang berdedikasi. Solusi terukur untuk pertumbuhan bisnis yang berkelanjutan.",
+"button": {
+"text": "Buat Jadwal Konsultasi",
+"href": "https://wa.me/6285156779923"
+}
+}
+]
+},
+"servicesSection": {
+"id": "services",
+"tagline": "Layanan",
+"title": "Layanan Profesional Kami untuk Pertumbuhan Bisnis Anda",
+"services": [
+{
+"icon": "/general.png",
+"title": "Konsultasi Umum",
+"description": "Layanan Penuh Empati, Keahlian, dan Fokus pada Kesuksesan Anda - Konsultan Bisnis Tepercaya Anda."
+},
+{
+"icon": "/Nutition.png",
+"title": "Strategi Pemasaran",
+"description": "Temukan Kekuatan Membangun Merek dan Menjangkau Target Pasar Anda untuk Pertumbuhan yang Berkelanjutan."
+},
+{
+"icon": "/Pediatrics.png",
+"title": "Pengembangan SDM",
+"description": "Memberdayakan Tim Anda: Menumbuhkan Kinerja Melalui Pengembangan Sumber Daya Manusia yang Progresif."
+},
+{
+"icon": "/Cardiology.png",
+"title": "Manajemen Keuangan",
+"description": "Merevolusi Kesehatan Finansial Perusahaan Anda Melalui Solusi Inovatif dan Tepat Guna."
+},
+{
+"icon": "/Orthopedics.png",
+"title": "Efisiensi Operasional",
+"description": "Penguasaan Operasional yang Presisi: Meningkatkan Produktivitas untuk Bisnis yang Aktif dan Efisien."
+},
+{
+"icon": "/opthlmology.png",
+"title": "Transformasi Digital",
+"description": "Komitmen Kami pada Presisi Teknologi dan Keberhasilan Transformasi Digital Bisnis Anda."
+}
+]
+},
+"contactSection": {
+"id": "contact-section",
+"title": "Perjalanan Sukses Bisnis Anda Dimulai Di Sini",
+"description": "Siap untuk bisnis yang lebih cerah dan sehat? Menjadwalkan konsultasi dengan Bisnovo mudah dan nyaman. Klik, hubungi, atau kunjungi kami untuk menjadwalkan pertemuan Anda. Tim kami yang ramah bersemangat menyambut Anda dan memulai perjalanan transformasi bisnis Anda.",
+"buttonText": "Hubungi Sekarang",
+"specialistInfo": {
+"image": "/contact-specialist.png",
+"line1": "Jadwalkan pertemuan untuk berdiskusi dengan",
+"line2": "Spesialis Bisnis Kami"
+},
+"form": {
+"title": "Jadwalkan konsultasi",
+"fields": [
+{ "label": "Nama Lengkap", "type": "text", "name": "fullname", "placeholder": "Nama Lengkap" },
+{ "label": "Email", "type": "email", "name": "Email", "placeholder": "email" },
+{ "label": "Kontak", "type": "tel", "name": "contact", "placeholder": "+628123456789" }
+],
+"submitButtonText": "Jadwalkan Sekarang"
+}
+},
+"smileSection": {
+"image": "/personalized-bisnovo.png",
+"tagline": "Pendekatan Bisnovo",
+"title": "Pendekatan Personal untuk Bisnis Unik Anda",
+"description": "Di Bisnovo, setiap bisnis adalah mahakarya. Pendekatan kami disesuaikan dengan kebutuhan individual Anda, memastikan Anda mendapatkan solusi yang paling efektif dan nyaman. Kami menggabungkan teknologi canggih dengan sentuhan pribadi yang hangat, membuat perjalanan Anda menuju kesuksesan bisnis sama menyenangkannya dengan hasilnya.",
+"button": {
+"text": "Buat Jadwal Konsultasi",
+"href": "https://wa.me/6285156779923"
+}
+},
+"testimonialSection": {
+"tagline": "Pendekatan Bisnovo",
+"title": "Dengar dari Klien Sukses Kami",
+"testimonials": [
+{
+"quote": "“ Tim konsultan di Bisnovo luar biasa! Keahlian dan kepedulian tulus mereka terhadap klien membuat setiap pertemuan menjadi pengalaman positif. Saya berterima kasih atas pendekatan personal yang telah meningkatkan kesehatan bisnis saya secara signifikan.”",
+"image": "/test1.png",
+"name": "Kevin Martin"
+},
+{
+"quote": "Saya telah mempercayai Bisnovo untuk bisnis saya selama bertahun-tahun, dan mereka tidak pernah mengecewakan. Perhatian tim terhadap detail dan komitmen terhadap keunggulan terbukti dalam setiap interaksi. Mereka telah menjadi lebih dari sekadar penyedia layanan konsultasi saya.",
+"image": "/test2.png",
+"name": "Bella Davis"
+},
+{
+"quote": "Tim di Bisnovo sangat luar biasa! Keahlian mereka dan perhatian tulus kepada klien membuat setiap sesi konsultasi menjadi pengalaman yang sangat positif. Saya bersyukur atas layanan personal yang telah membantu meningkatkan pertumbuhan perusahaan saya.",
+"image": "/test3.png",
+"name": "Wonghen"
+},
+{
+"quote": "“ Tim Bisnovo sungguh profesional! Keahlian mereka dan kepedulian tulus terhadap klien membuat setiap interaksi sangat berarti. Saya berterima kasih atas bimbingan personal yang telah membawa dampak positif besar pada bisnis saya.”",
+"image": "/test4.png",
+"name": "Sarah"
+}
+]
+},
+"faqSection": {
+"title": "Semua yang perlu Anda ketahui",
+"faqs": [
+{
+"question": "Bagaimana cara menjadwalkan konsultasi dengan tim Anda?",
+"answer": "Anda dapat menjadwalkan konsultasi dengan tim kami dengan menghubungi kami langsung melalui WhatsApp atau menggunakan sistem pemesanan online yang tersedia di situs web kami. Selain itu, Anda dapat menanyakan ketersediaan jadwal melalui resepsionis kami selama jam kantor."
+},
+{
+"question": "Bisakah saya menjadwal ulang atau membatalkan janji temu saya?",
+"answer": "Untuk menjadwal ulang atau membatalkan janji temu Anda, silakan hubungi kami sesegera mungkin. Pastikan untuk memeriksa kebijakan pembatalan kami dan memberikan pemberitahuan yang cukup untuk menghindari potensi biaya atau ketidaknyamanan."
+},
+{ "question": "Apakah mungkin untuk menjadwalkan konsultasi virtual atau online?", "answer": "Ya, kami menawarkan konsultasi virtual atau online. Anda dapat menjadwalkan pertemuan ini dengan menghubungi kantor kami dan mendiskusikan opsi konsultasi jarak jauh. Pastikan Anda memiliki teknologi dan instruksi yang diperlukan untuk pertemuan virtual tersebut." },
+{ "question": "Bagaimana saya bisa menghubungi Bisnovo untuk bantuan lebih lanjut atau pertanyaan tentang janji temu saya?", "answer": "Untuk mencari bantuan lebih lanjut atau menanyakan tentang janji temu Anda, hubungi kami langsung dengan menekan tombol WhatsApp di situs ini. Anda dapat menemukan informasi ini di situs web kami atau dokumentasi terkait janji temu. Atau, periksa kontak email atau portal klien jika disediakan." }
+]
+},
+"footer": {
+"logo": "/footer-bisnovo.png",
+"tagline": "Kami membawa kesuksesan untuk bisnis Anda",
+"links": [
+{ "label": "Tentang", "href": "#about" },
+{ "label": "Kontak", "href": "#contact-section" },
+{ "label": "Layanan", "href": "#services" },
+{ "label": "Konsultasi", "href": "https://wa.me/6285156779923" }
+],
+"copyright": "Copyright © 2023 Bisnovo. All Rights Reserved",
+"reserved": "All Right Reserved"
+}
 }
