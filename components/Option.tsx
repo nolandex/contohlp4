@@ -1,7 +1,8 @@
 import React from "react";
 import Image from "next/image";
 import { motion } from "framer-motion";
-import data from '../../config/data.json';
+import data from '@/config/data.json';
+
 
 const Option = () => {
   const { optionsBar } = data;
