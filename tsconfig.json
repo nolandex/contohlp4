@@ -18,9 +18,14 @@
         "name": "next"
       }
     ],
+
+    // --- REVISI PENTING DIMULAI DI SINI ---
+    "baseUrl": ".", // <-- PENTING: Ini wajib ditambahkan
     "paths": {
-      "@/*": ["./*"]
+      "@/*": ["./src/*"], // <-- DIUBAH: Mengarah ke folder 'src' agar lebih rapi
+      "@/config/*": ["./config/*"] // <-- PENTING: Alias baru untuk folder 'config' ditambahkan
     }
+    // --- REVISI PENTING SELESAI DI SINI ---
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
   "exclude": ["node_modules"]
