@@ -4,7 +4,7 @@ import Image from "next/image";
 import useEmblaCarousel from "embla-carousel-react";
 import { Button } from "./ui/button";
 import Link from "next/link";
-import data from '../../config/data.json';
+import data from '@/config/data.json';
 
 const Slider = () => {
   const [emblaRef, emblaApi] = useEmblaCarousel();
