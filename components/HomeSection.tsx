@@ -1,99 +1,112 @@
-'use client'
+"use client";
+import React, { useState } from "react";
 import Image from "next/image";
-import React from "react";
-import { Button } from "./ui/button";
-import Option from "./Option";
 import Link from "next/link";
-import { motion} from 'framer-motion';
+import { Button } from "@/components/ui/button";
+import { Popover } from "@headlessui/react";
+import { Menu, X } from "lucide-react";
+import { motion } from "framer-motion";
+import data from "../../config/data.json";
 
-
-const HomeSection = () => {
+const Header = () => {
+  const [menuOpen, setMenuOpen] = useState(false);
+  const { header } = data;
 
   return (
-    <section className="w-full md:relative" id="home-section">
-      <main className="max-w-[90rem] mx-auto py-0 md:py-0">
-      <motion.div
+    <motion.div
       initial={{ opacity: 0, y: -50 }}
       animate={{ opacity: 1, y: 0 }}
-      transition={{ duration: .5 }}
-      
-       className="flex flex-col md:flex-row items-start justify-between bg-[#FFECE2]">
-        {/* hero section wala text */}
-        <div className="md:px-12 px-4 py-20 md:w-1/2 w-full">
-          <h1 
-          className="md:text-[3.25rem] text-[1.8rem] md:leading-[128.846%] leading-[ 140%] font-[700] text-[#181443] tracking-[0.03988rem] md:text-start text-center">
-            Transforming Your Smile into a Timeless{" "}
-            <span className="text-[#FF6947] hover:animate-bounce cursor-pointer">Masterpiece</span> of Joy
-          </h1>
-          <p className="md:text-[1.125rem] text-[1rem] text-[#625D7E] text-center md:text-start md:font-[500] font-[400] md:leading-[205.556%] leading-normal md:mt-[1.88rem] mt-2">
-            Discover the joy of a perfect smile at SmileJoy! Expert care meets
-            artistic flair to create a smile that&apos;s uniquely you. Brighten
-            your world with a SmileJoy smile
-          </p>
-
-          {/* two Buttons whish is need  */}
-          <div className="flex flex-col md:flex-row gap-[25px] md:items-center md:mt-[3rem] mt-6 w-full">
-          
-            <Button  className="borderbutton2 bg-[#FF7352] md:px-12 md:py-8 py-7  font-[500] text-[0.93519rem] leading-[150%] rounded-[10px]
-            "><Link href="#contact-section" passHref>
-              Book An Appointment
+      transition={{ duration: 0.5 }}
+      className="w-full mx-auto bg-white relative z-50"
+    >
+      <Popover className="container mx-auto flex items-center px-4 py-4 md:max-w-[80rem]">
+        <Image
+          src={header.logo}
+          width={132}
+          height={50}
+          alt="logo"
+          className="md:w-[132px] md:h-[50px] w-[100px] h-[40px]"
+        />
+        <div className="grow">
+          <div className="hidden sm:flex items-center justify-start ml-24 gap-2 md:gap-16">
+            {header.navLinks.map((link) => (
+              <Link
+                key={link.label}
+                href={link.href}
+                passHref
+                className="text-[1rem] font-[500] leading-normal hover:text-gray-700"
+              >
+                {link.label}
               </Link>
-            </Button>
-          
-            <Button
-              variant="ghost"
-              className="md:px-12 md:py-8 py-7 font-[700] text-[1rem] leading-[150%] rounded-[10px] bg-[#FFECE2] border textcolor gap-2 borderbutton"
-            >
-              <Image src="/callmehunter.png" alt="phone" width={20} height={20} />{" "}
-              940-394-3344
-            </Button>
+            ))}
           </div>
-          {/* location and timer div */}
-          <div className="flex flex-col md:flex-row gap-[17px] md:items-center items-start md:mt-[2.5rem] mt-10 ">
-            {/* location */}
-            <div className="flex items-center justify-center gap-[20px]">
-              <Image
-                src="/location.png"
-                alt="location"
-                width={51}
-                height={51}
-              />
-              <div className="flex flex-col font-[700] text-[0.96125rem] leading-[150%] textcolor">
-                <p>Address</p>
-                <p>Brandenburgische Str. 87</p>
-              </div>
-            </div>
+        </div>
 
-            <div className="flex items-center justify-center gap-[20px] ">
-              <Image
-                src="/adress.png"
-                alt="location"
-                width={51}
-                height={51}
-              />
-              <div className="flex flex-col font-[700] text-[0.96125rem] leading-[150%] textcolor">
-              <p>Opening Hours</p>
-                <p>Mon-Fri 8:00 - 16:00</p>
+        <div className="flex grow items-center justify-end sm:hidden">
+          <Popover.Button
+            className="inline-flex items-center justify-center rounded-md bg-white p-2 text-gray-400 hover:bg-gray-100 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
+            onClick={() => setMenuOpen(!menuOpen)}
+          >
+            <span className="sr-only">Open menu</span>
+            <Menu className="h-6 w-6" aria-hidden="true" />
+          </Popover.Button>
+        </div>
+
+        <div
+          className={`absolute inset-x-0 top-0 origin-top-right transform p-2 transition ${
+            menuOpen ? "md:hidden" : "hidden"
+          }`}
+        >
+          <div className="rounded-lg text-[#646464] bg-white shadow-lg ring-1 ring-black ring-opacity-5 divide-y-2 divide-gray-50">
+            <div className="px-5 pt-5 pb-6">
+              <div className="flex items-center justify-between">
+                <Image src={header.logo} width={83} height={47} alt="logo" />
+                <div className="mr-2">
+                  <Popover.Button
+                    className="inline-flex items-center justify-center rounded-md bg-white p-2 text-gray-400 hover-bg-gray-100 hover-text-gray-500 focus-outline-none focus-ring-2 focus-ring-inset focus-ring-indigo-500"
+                    onClick={() => setMenuOpen(false)}
+                  >
+                    <span className="sr-only">Close menu</span>
+                    <X className="h-6 w-6" aria-hidden="true" />
+                  </Popover.Button>
+                </div>
+              </div>
+              <div className="mt-6">
+                <nav className="grid gap-y-8">
+                  {header.navLinks.map((link) => (
+                    <Link
+                      key={link.label}
+                      href={link.href}
+                      passHref
+                      className="focus-outline-none focus-ring-2 focus-ring-inset focus-ring-gray-500 px-2"
+                      onClick={() => setMenuOpen(false)}
+                    >
+                      {link.label}
+                    </Link>
+                  ))}
+                </nav>
+              </div>
+              <div className="mt-6 flex flex-col items-center text-center gap-2">
+                <Link href={header.button.href} passHref>
+                  <Button className="bg-[#FF7352] md:px-6 md:py-6 px-4 py-4 font-[500] text-[0.93519rem] leading-normal rounded-[10px] w-full">
+                    {header.button.text}
+                  </Button>
+                </Link>
               </div>
             </div>
           </div>
         </div>
-        {/* hero image make it responsive for all size of screens. */}
-        <div className="md:w-1/2  w-full flex justify-center items-center ">
-          <Image
-
-            src="/hero.png"
-            alt="hero"
-            width={769}
-            height={865}
-            
-          />
+        
+        <div className="hidden sm:block">
+          <Link href={header.button.href} passHref>
+            <Button className="bg-[#FF7352] md:px-6 md:py-6 px-4 py-4 font-[500] text-[0.93519rem] leading-normal rounded-[10px]">
+              {header.button.text}
+            </Button>
+          </Link>
         </div>
-      </motion.div>
-      <Option />
-      </main>
-    </section>
+      </Popover>
+    </motion.div>
   );
 };
 
-export default HomeSection;
+export default Header;
