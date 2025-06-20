@@ -5,7 +5,8 @@ import {
     AccordionItem,
     AccordionTrigger,
 } from "@/components/ui/accordion"
-import data from '../../config/data.json';
+import data from '@/config/data.json';
+
 
 const Faq = () => {
   const { faqSection } = data;
