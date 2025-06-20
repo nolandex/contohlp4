@@ -3,9 +3,9 @@
   "header": {
     "logo": "/logo.png",
     "navLinks": [
-      { "label": "About us", "href": "/" },
-      { "label": "Our Service", "href": "/about" },
-      { "label": "Find a Doctor ", "href": "/features" }
+      { "label": "About us", "href": "#about" },
+      { "label": "Our Service", "href": "#services" },
+      { "label": "Find a Doctor ", "href": "#doctors" }
     ],
     "button": {
       "text": "Book now",
@@ -59,6 +59,7 @@
     }
   ],
   "aboutSection": {
+    "id": "about",
     "image": "/about.png",
     "tagline": "The power of a smile",
     "title": "Unlock the Magic of Your Smile",
@@ -69,6 +70,7 @@
     }
   },
   "doctorSlider": {
+    "id": "doctors",
     "tagline": "Meet our Doctors",
     "title": "Meet Our Team. Your Health Matters.",
     "controls": {
@@ -99,6 +101,7 @@
     ]
   },
   "servicesSection": {
+    "id": "services",
     "tagline": "Services",
     "title": "Your Doctor Services for Health and Wellness",
     "services": [
@@ -135,6 +138,7 @@
     ]
   },
   "contactSection": {
+    "id": "contact-section",
     "title": "Your SmileJoy Journey Begins Here",
     "description": "Ready for a brighter, healthier smile? Booking your appointment with SmileJoy is easy and convenient. Click, call, or visit us to schedule your visit. Our friendly team is excited to welcome you and start your transformation journey.",
     "buttonText": "Book now",
@@ -146,9 +150,9 @@
     "form": {
       "title": "Schedule an appointment",
       "fields": [
-        { "label": "FullName", "type": "text", "placeholder": "fullname" },
-        { "label": "Email", "type": "email", "placeholder": "email" },
-        { "label": "Contact", "type": "contact", "placeholder": "1-234-567-891" }
+        { "label": "FullName", "type": "text", "name": "fullname", "placeholder": "fullname" },
+        { "label": "Email", "type": "email", "name": "Email", "placeholder": "email" },
+        { "label": "Contact", "type": "tel", "name": "contact", "placeholder": "1-234-567-891" }
       ],
       "submitButtonText": "Schedule now"
     }
@@ -200,14 +204,8 @@
         "question": "Can I reschedule or cancel my appointment?",
         "answer": "To reschedule or cancel your appointment, please contact the relevant service provider or organization as soon as possible. Be sure to check their cancellation policy and provide ample notice to avoid any potential fees or inconveniences."
       },
-      {
-        "question": "Is it possible to schedule virtual or telemedicine appointments?",
-        "answer": "Yes, many healthcare providers offer virtual or telemedicine appointments. You can schedule these appointments by contacting your healthcare provider's office and discussing the option of a remote consultation. Ensure you have the necessary technology and instructions for the virtual visit."
-      },
-      {
-        "question": "How can I contact the clinic for further assistance or questions about my appointment?",
-        "answer": "To seek further assistance or inquire about your appointment, contact the clinic directly by calling their main phone number. You can find this information on their website or any appointment-related documentation. Alternatively, check for email contacts or patient portals if provided."
-      }
+      { "question": "Is it possible to schedule virtual or telemedicine appointments?", "answer": "Yes, many healthcare providers offer virtual or telemedicine appointments. You can schedule these appointments by contacting your healthcare provider's office and discussing the option of a remote consultation. Ensure you have the necessary technology and instructions for the virtual visit." },
+      { "question": "How can I contact the clinic for further assistance or questions about my appointment?", "answer": "To seek further assistance or inquire about your appointment, contact the clinic directly by calling their main phone number. You can find this information on their website or any appointment-related documentation. Alternatively, check for email contacts or patient portals if provided." }
     ]
   },
   "footer": {
@@ -215,9 +213,9 @@
     "tagline": "We bring smile on your face",
     "links": [
       { "label": "About", "href": "#about" },
-      { "label": "Contact", "href": "#" },
-      { "label": "Services", "href": "#" },
-      { "label": "Appointment", "href": "#" }
+      { "label": "Contact", "href": "#contact-section" },
+      { "label": "Services", "href": "#services" },
+      { "label": "Appointment", "href": "#contact-section" }
     ],
     "copyright": "Copyright © 2023 FramerBite. All Rights Reserved",
     "reserved": "All Right Reserve"
