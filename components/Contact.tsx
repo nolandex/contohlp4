@@ -1,7 +1,8 @@
 import React from "react";
 import { Button } from "./ui/button";
 import Image from "next/image";
-import data from '../../config/data.json';
+import data from '@/config/data.json';
+
 
 const Contact = () => {
   const { contactSection } = data;
