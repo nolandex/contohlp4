@@ -1,0 +1,225 @@
+{
+  "whatsappLink": "https://wa.me/6285156779923",
+  "header": {
+    "logo": "/logo.png",
+    "navLinks": [
+      { "label": "About us", "href": "/" },
+      { "label": "Our Service", "href": "/about" },
+      { "label": "Find a Doctor ", "href": "/features" }
+    ],
+    "button": {
+      "text": "Book now",
+      "href": "#contact-section"
+    }
+  },
+  "homeSection": {
+    "title": "Transforming Your Smile into a Timeless <span class='text-[#FF6947]'>Masterpiece</span> of Joy",
+    "subtitle": "Discover the joy of a perfect smile at SmileJoy! Expert care meets artistic flair to create a smile that's uniquely you. Brighten your world with a SmileJoy smile",
+    "appointmentButton": {
+      "text": "Book An Appointment",
+      "href": "#contact-section"
+    },
+    "contactButton": {
+      "text": "940-394-3344",
+      "icon": "/callmehunter.png"
+    },
+    "address": {
+      "icon": "/location.png",
+      "title": "Address",
+      "text": "Brandenburgische Str. 87"
+    },
+    "openingHours": {
+      "icon": "/adress.png",
+      "title": "Opening Hours",
+      "text": "Mon-Fri 8:00 - 16:00"
+    },
+    "heroImage": "/hero.png"
+  },
+  "optionsBar": [
+    {
+      "title": "Working Hours",
+      "icon": "/timer.png",
+      "details": [
+        { "label": "MON - SAT", "value": "9am - 8pm" }
+      ]
+    },
+    {
+      "title": "Book an Appointment",
+      "icon": "/boking.png",
+      "details": [
+        { "label": "Calender", "value": "14-12-2023" }
+      ]
+    },
+    {
+      "title": "Emergency Service",
+      "icon": "/call.png",
+      "details": [
+        { "label": "EMERGENCY LINE 24/7", "value": "1-234-567-891" }
+      ]
+    }
+  ],
+  "aboutSection": {
+    "image": "/about.png",
+    "tagline": "The power of a smile",
+    "title": "Unlock the Magic of Your Smile",
+    "description": "A radiant smile is more than just aesthetics; it's a key to confidence, health, and happiness. At SmileJoy, we understand the transformative power of a smile. It's not just about looking good—it's about feeling great. Let us help you unlock the full potential of your smile, enhancing both your appearance and your wellbeing",
+    "button": {
+      "text": "Book An Appointment",
+      "href": "#contact-section"
+    }
+  },
+  "doctorSlider": {
+    "tagline": "Meet our Doctors",
+    "title": "Meet Our Team. Your Health Matters.",
+    "controls": {
+      "prev": "/left.png",
+      "next": "/right.png"
+    },
+    "doctors": [
+      {
+        "image": "/team.png",
+        "specialty": "Medical Specialist",
+        "name": "Dr. Sarah Davis",
+        "description": "Experience excellence with one of the best medical specialists in the field. Trust our seasoned professional for exceptional care and results.",
+        "button": {
+          "text": "Book An Appointment",
+          "href": "#contact-section"
+        }
+      },
+      {
+        "image": "/team.png",
+        "specialty": "Medical Specialist",
+        "name": "Dr. Sarah Davis",
+        "description": "Experience excellence with one of the best medical specialists in the field. Trust our seasoned professional for exceptional care and results.",
+        "button": {
+          "text": "Book An Appointment",
+          "href": "#contact-section"
+        }
+      }
+    ]
+  },
+  "servicesSection": {
+    "tagline": "Services",
+    "title": "Your Doctor Services for Health and Wellness",
+    "services": [
+      {
+        "icon": "/general.png",
+        "title": "General",
+        "description": "Compassionate Care, Expertise, and Your Well-being - Your Trusted General Doctor."
+      },
+      {
+        "icon": "/Nutition.png",
+        "title": "Nutrition",
+        "description": "Discover the Power of Nourishing Your Body and Mind for Lasting Joy and Vitality."
+      },
+      {
+        "icon": "/Pediatrics.png",
+        "title": "Pediatrics",
+        "description": "Empowering Young Lives: Nurturing Wellness Through Progressive Pediatric Care"
+      },
+      {
+        "icon": "/Cardiology.png",
+        "title": "Cardiology",
+        "description": "Revolutionizing Cardiology Through Innovative Ultricies Solutions"
+      },
+      {
+        "icon": "/Orthopedics.png",
+        "title": "Orthopedics",
+        "description": "Precision Orthopedic Mastery: Elevating Mobility for an Active and Pain-Free Life in Motion."
+      },
+      {
+        "icon": "/opthlmology.png",
+        "title": "Ophthalmology",
+        "description": "Ophthalmology's Commitment to Vision Precision and Eye Wellness"
+      }
+    ]
+  },
+  "contactSection": {
+    "title": "Your SmileJoy Journey Begins Here",
+    "description": "Ready for a brighter, healthier smile? Booking your appointment with SmileJoy is easy and convenient. Click, call, or visit us to schedule your visit. Our friendly team is excited to welcome you and start your transformation journey.",
+    "buttonText": "Book now",
+    "specialistInfo": {
+      "image": "/contactmaam.png",
+      "line1": "Schedule appointment to discuss with",
+      "line2": "Medical Specialist"
+    },
+    "form": {
+      "title": "Schedule an appointment",
+      "fields": [
+        { "label": "FullName", "type": "text", "placeholder": "fullname" },
+        { "label": "Email", "type": "email", "placeholder": "email" },
+        { "label": "Contact", "type": "contact", "placeholder": "1-234-567-891" }
+      ],
+      "submitButtonText": "Schedule now"
+    }
+  },
+  "smileSection": {
+    "image": "/personalized.png",
+    "tagline": "The SmileJoy Approach",
+    "title": "Personalized Care for Your Unique Smile",
+    "description": "At SmileJoy, every smile is a masterpiece. Our approach is tailored to your individual needs, ensuring you get the most effective and comfortable treatment. We combine state-of-the-art technology with a warm, personal touch, making your journey to a perfect smile as enjoyable as the results.",
+    "button": {
+      "text": "Book An Appointment",
+      "href": "#contact-section"
+    }
+  },
+  "testimonialSection": {
+    "tagline": "The SmileJoy Approach",
+    "title": "Hear from Our Happy Smilers",
+    "testimonials": [
+      {
+        "quote": "“ SmileJoy's team of doctors are incredible! Their expertise and genuine concern for their patients make every visit a positive experience. I'm thankful for the personalized care that has significantly improved my eye health.”",
+        "image": "/test1.png",
+        "name": "Kevin Martin"
+      },
+      {
+        "quote": "I've trusted SmileJoy with my vision for years, and they never disappoint. The doctors' attention to detail and commitment to excellence are evident in every interaction. They've become more than just my eye care providers; Read more ",
+        "image": "/test2.png",
+        "name": "Bella Davis"
+      },
+      {
+        "quote": "SmileJoy's team of doctors are incredible! Their expertise and genuine concern for their patients make every visit a positive experience. I'm thankful for the personalized care that has significantly improved my eye health",
+        "image": "/test3.png",
+        "name": "Wonghen"
+      },
+      {
+        "quote": "“ SmileJoy's team of doctors are incredible! Their expertise and genuine concern for their patients make every visit a positive experience. I'm thankful for the personalized care that has significantly improved my eye health.” ",
+        "image": "/test4.png",
+        "name": "Sarah"
+      }
+    ]
+  },
+  "faqSection": {
+    "title": "Everything you need to know",
+    "faqs": [
+      {
+        "question": "How can I schedule an appointment with my doctor?",
+        "answer": "You can schedule an appointment with your doctor by calling the clinic directly or using the online appointment booking system available on our website. Additionally, you may inquire about appointment availability through our reception desk during regular office hours."
+      },
+      {
+        "question": "Can I reschedule or cancel my appointment?",
+        "answer": "To reschedule or cancel your appointment, please contact the relevant service provider or organization as soon as possible. Be sure to check their cancellation policy and provide ample notice to avoid any potential fees or inconveniences."
+      },
+      {
+        "question": "Is it possible to schedule virtual or telemedicine appointments?",
+        "answer": "Yes, many healthcare providers offer virtual or telemedicine appointments. You can schedule these appointments by contacting your healthcare provider's office and discussing the option of a remote consultation. Ensure you have the necessary technology and instructions for the virtual visit."
+      },
+      {
+        "question": "How can I contact the clinic for further assistance or questions about my appointment?",
+        "answer": "To seek further assistance or inquire about your appointment, contact the clinic directly by calling their main phone number. You can find this information on their website or any appointment-related documentation. Alternatively, check for email contacts or patient portals if provided."
+      }
+    ]
+  },
+  "footer": {
+    "logo": "/footer.png",
+    "tagline": "We bring smile on your face",
+    "links": [
+      { "label": "About", "href": "#about" },
+      { "label": "Contact", "href": "#" },
+      { "label": "Services", "href": "#" },
+      { "label": "Appointment", "href": "#" }
+    ],
+    "copyright": "Copyright © 2023 FramerBite. All Rights Reserved",
+    "reserved": "All Right Reserve"
+  }
+}
