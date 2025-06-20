@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import * as React from "react";
-import data from '../../config/data.json';
+import data from '@/config/data.json';
 
 function Footer() {
   const { footer } = data;
