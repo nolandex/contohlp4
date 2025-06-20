@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import React from 'react'
 import Marquee from "react-fast-marquee";
-import data from '../../config/data.json';
+import data from '@/config/data.json';
 
 const Testemonial = () => {
   const { testimonialSection } = data;
