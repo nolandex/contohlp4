@@ -1,6 +1,6 @@
 import About from "@/components/About";
 import Contact from "@/components/Contact";
-import Faq from "@/components/Faq's";
+import Faq from "@/components/Faq";
 import HomeSection from "@/components/HomeSection";
 import Services from "@/components/Services";
 import Smile from "@/components/Smile";
